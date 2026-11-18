@@ -1,0 +1,14 @@
+
+<h1>My tasks</h1>
+
+<ul>
+  <% @tasks.each do |task| %>
+    <li><%= task.title %></li>
+  <% end %>
+
+
+<h2><%= @restaurant.name %></h2>
+<p><%= @restaurant.address %></p>
+<p><%= @restaurant.rating %></p>
+
+</ul>
